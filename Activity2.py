@@ -4,11 +4,10 @@ def compute_gross_income(hours_per_day, days_per_week, weeks_per_month):
     return gross_income
 
 
-# Deduction based on gross income
+
 def compute_deductions(gross_income):
     pagibig_contribution = 100.00
 
-    # SSS and PhilHealth contributions based on gross income ranges
     if gross_income <= 20000:
         sss_contribution = 100.00
         philhealth_contribution = 125.75
