@@ -4,7 +4,7 @@ def compute_final_grade(midterm, minor_b, final_exam):
     compute_final_grade = (0.30 * midterm) + (0.10 * minor_b) + (0.60 * final_exam)
     return compute_final_grade
 
-#Determine final grade based on the grading remarks
+#Determine final grade based on the remarks
 def determine_equivalent_grade(final_grade):
     if 98 <= final_grade <= 100:
         return 4.00
